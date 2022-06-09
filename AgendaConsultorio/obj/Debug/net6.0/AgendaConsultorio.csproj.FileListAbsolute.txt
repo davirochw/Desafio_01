@@ -1,0 +1,15 @@
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\bin\Debug\net6.0\AgendaConsultorio.exe
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\bin\Debug\net6.0\AgendaConsultorio.deps.json
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\bin\Debug\net6.0\AgendaConsultorio.runtimeconfig.json
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\bin\Debug\net6.0\AgendaConsultorio.dll
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\bin\Debug\net6.0\AgendaConsultorio.pdb
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.csproj.AssemblyReference.cache
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.AssemblyInfoInputs.cache
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.AssemblyInfo.cs
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.csproj.CoreCompileInputs.cache
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.dll
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\refint\AgendaConsultorio.dll
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.pdb
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\AgendaConsultorio.genruntimeconfig.cache
+C:\Users\davi-\Documents\workspace\Backend C#\Desafio1\AgendaConsultorio\obj\Debug\net6.0\ref\AgendaConsultorio.dll

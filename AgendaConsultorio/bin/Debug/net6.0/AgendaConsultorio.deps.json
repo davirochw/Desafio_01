@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AgendaConsultorio/1.0.0": {
+        "runtime": {
+          "AgendaConsultorio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgendaConsultorio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
