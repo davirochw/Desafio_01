@@ -23,6 +23,9 @@ namespace AgendaConsultorio.CadastroConsulta
             }
         }
 
+        /// <summary>
+        /// Esse método privado adiciona uma nova consulta com o paciente já cadastrado 
+        /// </summary>
         private void AdicionaConsulta()
         {
             Console.Clear();
@@ -79,6 +82,9 @@ namespace AgendaConsultorio.CadastroConsulta
             }
         }
 
+        /// <summary>
+        /// Esse método verifica se a consulta que deseja marcar já está marcada
+        /// </summary>
         private bool VerificaConsulta(string dataConsulta, string horaInicial, string horaFinal)
         {
             try
@@ -123,6 +129,9 @@ namespace AgendaConsultorio.CadastroConsulta
             }
         }
 
+        /// <summary>
+        /// Esse método cancela o agendamento de uma consulta, caso ela exista
+        /// </summary>
         public void CancelaAgendamento()
         {
             Console.Clear();
@@ -176,6 +185,9 @@ namespace AgendaConsultorio.CadastroConsulta
             });
         }
 
+        /// <summary>
+        /// Esse método pede informações sobre o período que deseja listar as consultas para exibir
+        /// </summary>
         public void ListaAgenda()
         {
             Console.Clear();
@@ -206,7 +218,10 @@ namespace AgendaConsultorio.CadastroConsulta
             }
         }
 
-        public void ImprimeListaAgenda(string dataInicialConsulta, string dataFinalConsulta)
+        /// <summary>
+        /// Esse método lista as consultas em determinado período ou todas as consultas
+        /// </summary>
+        private void ImprimeListaAgenda(string dataInicialConsulta, string dataFinalConsulta)
         {
             var datasOrdenadas = consultas.OrderBy(d => d.DataConsulta).ToList();
 

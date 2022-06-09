@@ -23,6 +23,9 @@ namespace AgendaConsultorio.CadastroPaciente
             }
         }
 
+        /// <summary>
+        /// Esse método privado adiciona um paciente 
+        /// </summary>
         private void AdicionaPaciente()
         {
             Console.Write("CPF: ");
@@ -68,6 +71,9 @@ namespace AgendaConsultorio.CadastroPaciente
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Esse método verifica se o cpf já existe no cadastro no sistema
+        /// </summary>
         private bool VerificaPaciente(string cpf)
         {
             try
@@ -92,6 +98,9 @@ namespace AgendaConsultorio.CadastroPaciente
             }
         }
 
+        /// <summary>
+        /// Esse método remove o paciente se o cpf for encontrado e caso ele não tenha uma consulta futura
+        /// </summary>
         public void RemovePaciente()
         {
             Console.Clear();
@@ -131,6 +140,10 @@ namespace AgendaConsultorio.CadastroPaciente
             }
         }
 
+        /// <summary>
+        /// Esse método lista os pacientes cadastrados por cpf, e se o paciente estiver alguma consulta futura,
+        /// ele não será exibida na lista.
+        /// </summary>
         public void ListaPacientesPorCPF()
         {
             Console.Clear();
@@ -154,6 +167,10 @@ namespace AgendaConsultorio.CadastroPaciente
             Console.WriteLine("------------------------------------------------------");
         }
 
+        /// <summary>
+        /// Esse método lista os pacientes cadastrados por nome, e se o paciente estiver alguma consulta futura,
+        /// ele não será exibida na lista.
+        /// </summary>
         public void ListaPacientesPorNome()
         {
             Console.Clear();
@@ -177,6 +194,9 @@ namespace AgendaConsultorio.CadastroPaciente
             Console.WriteLine("------------------------------------------------------");
         }
 
+        /// <summary>
+        /// Esse método calcula a idade do paciente, e retorna para exibir na lista
+        /// </summary>
         private int IdadeDoPaciente(string data)
         {
             var anoAtual = DateTime.Now.Year;
